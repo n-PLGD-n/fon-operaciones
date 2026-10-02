@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidad | FON Operaciones</title>
+<meta name="robots" content="index, follow">
+<link rel="icon" type="image/png" href="fonlogo.png">
+<style>
+  :root {
+    --bg: #f6f8fa;
+    --paper: #ffffff;
+    --ink: #1c2530;
+    --muted: #5b6776;
+    --line: #dde3ea;
+    --accent: #0b5cad;
+    --mark: #fff3c4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #11161c;
+      --paper: #181f27;
+      --ink: #e6ebf1;
+      --muted: #9aa7b6;
+      --line: #2a3441;
+      --accent: #6db3f2;
+      --mark: #4a3f12;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.7;
+    font-size: 17px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+  .bar {
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 12px; margin-bottom: 24px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-size: 14px; color: var(--muted);
+  }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 600; color: var(--ink); font-size: 16px; }
+  .brand img { width: 36px; height: 36px; border-radius: 8px; object-fit: contain; }
+  .lang button {
+    font: inherit; cursor: pointer; padding: 6px 14px;
+    border: 1px solid var(--line); background: var(--paper); color: var(--ink);
+  }
+  .lang button:first-child { border-radius: 6px 0 0 6px; }
+  .lang button:last-child { border-radius: 0 6px 6px 0; border-left: 0; }
+  .lang button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .lang button:focus-visible, a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  article {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 40px 36px;
+  }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 6px; }
+  h2 { font-size: 1.2rem; margin: 2.2em 0 .4em; padding-top: 1.2em; border-top: 1px solid var(--line); }
+  .meta { color: var(--muted); font-family: system-ui, sans-serif; font-size: 14px; margin: 0 0 24px; }
+  p, li { max-width: 68ch; }
+  ul { padding-left: 1.2em; }
+  li { margin: .35em 0; }
+  a { color: var(--accent); }
+  .ph { background: var(--mark); padding: 0 4px; border-radius: 3px; }
+  [data-l] { display: none; }
+  html[lang="es"] [data-l="es"], html[lang="en"] [data-l="en"] { display: block; }
+  html[lang="es"] span[data-l="es"], html[lang="en"] span[data-l="en"] { display: inline; }
+  @media (max-width: 560px) {
+    body { font-size: 16px; }
+    article { padding: 28px 20px; }
+    h1 { font-size: 1.6rem; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="bar">
+    <span class="brand"><img src="fonlogo.png" alt="Logo de FON Operaciones" width="36" height="36"><span>FON Operaciones</span></span>
+    <div class="lang" role="group" aria-label="Idioma / Language">
+      <button type="button" data-set="es" aria-pressed="true">Español</button>
+      <button type="button" data-set="en" aria-pressed="false">English</button>
+    </div>
+  </div>
+
+  <!-- ====================== ESPAÑOL ====================== -->
+  <article data-l="es">
+    <h1>Política de Privacidad</h1>
+    <p class="meta">Última actualización: <span class="ph">[FECHA]</span></p>
+
+    <p>Esta política explica qué información recopila la aplicación móvil <strong>FON Operaciones</strong> (la «App»), cómo se usa y cómo se protege. La App es una herramienta de trabajo de uso exclusivo para técnicos de servicios FON, operada por <span class="ph">[NOMBRE DE LA EMPRESA]</span> (la «Empresa»).</p>
+
+    <h2>1. Quién puede usar la App</h2>
+    <p>La App no tiene registro público. Solo pueden usarla los técnicos autorizados por la Empresa. Las cuentas son creadas por un administrador, y el administrador puede activarlas o desactivarlas en cualquier momento. Una cuenta desactivada no puede iniciar sesión ni acceder a la información de la App.</p>
+
+    <h2>2. Información que recopilamos</h2>
+    <p>Recopilamos únicamente lo necesario para que el técnico pueda recibir y ejecutar sus tareas:</p>
+    <ul>
+      <li><strong>Datos de la cuenta:</strong> nombre, correo electrónico o usuario, y credenciales de acceso (la contraseña se almacena cifrada).</li>
+      <li><strong>Datos operativos:</strong> eventos y tareas asignadas o tomadas por el técnico, su estado, fecha y hora, observaciones y mediciones registradas.</li>
+      <li><strong>Ubicación:</strong> si la App la solicita, se usa para registrar el lugar donde se realiza una tarea. <span class="ph">[Elimina esta línea si no usas ubicación]</span></li>
+      <li><strong>Fotos y archivos:</strong> imágenes o evidencias que el técnico adjunta a una tarea. <span class="ph">[Elimina esta línea si no usas cámara]</span></li>
+      <li><strong>Datos técnicos del dispositivo:</strong> modelo, versión del sistema y registros de errores, para corregir fallos.</li>
+    </ul>
+    <p>No recopilamos información financiera ni mostramos publicidad.</p>
+
+    <h2>3. Para qué usamos la información</h2>
+    <ul>
+      <li>Autenticar al técnico y gestionar su acceso.</li>
+      <li>Asignar, ejecutar y dar seguimiento a los eventos y tareas de servicio.</li>
+      <li>Llevar un historial de las actividades realizadas.</li>
+      <li>Mantener la seguridad de la App y mejorar su funcionamiento.</li>
+    </ul>
+    <p>No vendemos ni alquilamos información personal.</p>
+
+    <h2>4. Quién tiene acceso</h2>
+    <p>La información es accesible para el técnico (sus propios datos y tareas) y para los administradores de la Empresa. También puede ser tratada por proveedores de infraestructura que alojan los datos (servicios de nube y base de datos), que actúan bajo instrucciones de la Empresa. Solo la compartiremos con terceros si una ley o autoridad competente lo exige.</p>
+
+    <h2>5. Permisos del dispositivo</h2>
+    <p>La App puede solicitar acceso a la <strong>ubicación</strong>, la <strong>cámara</strong> y el <strong>almacenamiento</strong> o galería, únicamente para las funciones descritas arriba. Puedes revocar estos permisos en los ajustes de tu dispositivo, aunque algunas funciones podrían dejar de estar disponibles.</p>
+
+    <h2>6. Conservación de los datos</h2>
+    <p>Conservamos los datos mientras la cuenta esté activa y durante el tiempo necesario para fines operativos y legales de la Empresa. Cuando una cuenta se desactiva, el técnico pierde el acceso; los registros de trabajo pueden conservarse como historial operativo.</p>
+
+    <h2>7. Seguridad</h2>
+    <p>Usamos conexiones cifradas (HTTPS) y control de acceso por cuenta para proteger la información. Ningún sistema es completamente infalible, pero trabajamos para reducir los riesgos.</p>
+
+    <h2>8. Tus derechos</h2>
+    <p>Puedes solicitar acceso, corrección o eliminación de tus datos personales, o hacer preguntas sobre su tratamiento, escribiendo al contacto indicado abajo o a tu administrador. Atenderemos la solicitud conforme a la normativa aplicable.</p>
+
+    <h2>9. Menores de edad</h2>
+    <p>La App está destinada a personal técnico adulto y no se dirige a menores de edad.</p>
+
+    <h2>10. Cambios en esta política</h2>
+    <p>Podemos actualizar esta política. La versión vigente siempre estará en esta página, con su fecha de actualización.</p>
+
+    <h2>11. Contacto</h2>
+    <p><span class="ph">[NOMBRE DE LA EMPRESA]</span><br>
+    Correo: <a href="mailto:correo@ejemplo.com"><span class="ph">[CORREO DE CONTACTO]</span></a></p>
+  </article>
+
+  <!-- ====================== ENGLISH ====================== -->
+  <article data-l="en">
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: <span class="ph">[DATE]</span></p>
+
+    <p>This policy explains what information the mobile application <strong>FON Operaciones</strong> (the “App”) collects, how it is used, and how it is protected. The App is a work tool intended exclusively for FON service technicians, operated by <span class="ph">[COMPANY NAME]</span> (the “Company”).</p>
+
+    <h2>1. Who can use the App</h2>
+    <p>The App has no public sign-up. Only technicians authorized by the Company can use it. Accounts are created by an administrator, who can activate or deactivate them at any time. A deactivated account cannot sign in or access any information in the App.</p>
+
+    <h2>2. Information we collect</h2>
+    <p>We collect only what is needed for technicians to receive and carry out their tasks:</p>
+    <ul>
+      <li><strong>Account data:</strong> name, email or username, and sign-in credentials (passwords are stored encrypted).</li>
+      <li><strong>Operational data:</strong> events and tasks assigned to or taken by the technician, their status, date and time, notes, and recorded measurements.</li>
+      <li><strong>Location:</strong> if requested by the App, it is used to record where a task is performed. <span class="ph">[Remove this line if you don't use location]</span></li>
+      <li><strong>Photos and files:</strong> images or evidence the technician attaches to a task. <span class="ph">[Remove this line if you don't use the camera]</span></li>
+      <li><strong>Device technical data:</strong> model, operating system version and error logs, used to fix problems.</li>
+    </ul>
+    <p>We do not collect financial information and we do not show ads.</p>
+
+    <h2>3. How we use the information</h2>
+    <ul>
+      <li>To authenticate the technician and manage their access.</li>
+      <li>To assign, perform and track service events and tasks.</li>
+      <li>To keep a history of the activities carried out.</li>
+      <li>To keep the App secure and improve how it works.</li>
+    </ul>
+    <p>We do not sell or rent personal information.</p>
+
+    <h2>4. Who has access</h2>
+    <p>The information is accessible to the technician (their own data and tasks) and to the Company's administrators. It may also be processed by infrastructure providers that host the data (cloud and database services), acting on the Company's instructions. We will only share it with third parties if required by law or a competent authority.</p>
+
+    <h2>5. Device permissions</h2>
+    <p>The App may request access to <strong>location</strong>, <strong>camera</strong> and <strong>storage</strong> or gallery, only for the features described above. You can revoke these permissions in your device settings, although some features may stop working.</p>
+
+    <h2>6. Data retention</h2>
+    <p>We keep data while the account is active and for as long as needed for the Company's operational and legal purposes. When an account is deactivated, the technician loses access; work records may be kept as operational history.</p>
+
+    <h2>7. Security</h2>
+    <p>We use encrypted connections (HTTPS) and per-account access control to protect the information. No system is completely infallible, but we work to reduce risks.</p>
+
+    <h2>8. Your rights</h2>
+    <p>You may request access to, correction of, or deletion of your personal data, or ask questions about how it is handled, by writing to the contact below or to your administrator. We will respond in line with applicable law.</p>
+
+    <h2>9. Children</h2>
+    <p>The App is intended for adult technical staff and is not directed at children.</p>
+
+    <h2>10. Changes to this policy</h2>
+    <p>We may update this policy. The current version will always be on this page, with its update date.</p>
+
+    <h2>11. Contact</h2>
+    <p><span class="ph">[COMPANY NAME]</span><br>
+    Email: <a href="mailto:correo@ejemplo.com"><span class="ph">[CONTACT EMAIL]</span></a></p>
+  </article>
+
+</div>
+
+<script>
+  (function () {
+    var buttons = document.querySelectorAll('[data-set]');
+    function setLang(l) {
+      document.documentElement.lang = l;
+      buttons.forEach(function (b) {
+        b.setAttribute('aria-pressed', b.getAttribute('data-set') === l ? 'true' : 'false');
+      });
+      document.title = (l === 'es' ? 'Política de Privacidad' : 'Privacy Policy') + ' | ' + (l === 'es' ? 'FON Operaciones' : 'FON Operaciones');
+    }
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function () { setLang(b.getAttribute('data-set')); });
+    });
+    if ((navigator.language || '').toLowerCase().indexOf('es') !== 0) setLang('en');
+  })();
+</script>
+</body>
+</html>
